@@ -7,7 +7,10 @@ repositories {
 }
 
 dependencies {
-    testImplementation("com.codeborne:selenide:5.20.3", "org.junit.jupiter:junit-jupiter:5.7.1")
+    testImplementation(
+            "com.codeborne:selenide:5.22.2",
+            "org.junit.jupiter:junit-jupiter:5.7.1")
+
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.1")
 }
 
