@@ -20,6 +20,7 @@ public class FirstTest {
     static void setup() {
 
 
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
