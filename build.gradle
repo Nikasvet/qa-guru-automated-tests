@@ -7,6 +7,16 @@ repositories {
     mavenCentral()
 }
 
+allure {
+    version = '2.14.0'
+    aspectjVersion = '1.9.4'
+    aspectjweaver = true
+    autoconfigure = true
+    useJUnit5 {
+        version = '2.14.0'
+    }
+}
+
 dependencies {
     testImplementation(
             "com.codeborne:selenide:5.22.2",
